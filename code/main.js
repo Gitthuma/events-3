@@ -11,3 +11,7 @@ function changeCol(e) {
     buttonBar.style.backgroundColor = e.target.getAttribute('data-color');
 
 }
+
+//Add event lister to call the changeCol function
+
+buttonBar.addEventListener('click', changeCol);
